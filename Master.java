@@ -9,7 +9,7 @@ public class Master{
     public void Input(){
         Scanner sc = new Scanner (System.in);
         System.out.println("Enter the sentece:");
-        Sentence = sc.next();
+        Sentence = sc.nextLine();
     }
 
     public String UpperCase(){

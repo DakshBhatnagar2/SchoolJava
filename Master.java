@@ -24,7 +24,7 @@ public class Master{
                 if(i ==0 && Sentence.charAt(i) == 'A')
                     A++;
 
-                if((Sentence.charAt(i-1) == ' ') && (Sentence.charAt(i) == 'A'))
+                if((Sentence.charAt(i) == ' ') && (Sentence.charAt(i) == 'A'))
                     A++;
               }
           return A;
